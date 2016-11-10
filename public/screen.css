@@ -3,6 +3,56 @@ html {
 }
 
 body {
-  margin: 0;
-  font: 16px / 1 sans-serif;
+    margin: 0;
+    font: 16px / 1 sans-serif;
+}
+nav {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color: darkgray;
+}
+nav ul {
+    list-style-type: none;
+    margin: 10px;
+}
+li {
+    display: inline;
+    padding: 10px;
+}
+    li a {
+        text-decoration: none;
+        color: black;
+    }
+
+.tomcat ul {
+    align-items: center;
+    height:300px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tomcat img {
+    max-height: 300px;
+    max-width: 300px;
+    border: 1px solid black;
+}
+
+.tomcat li{
+    padding: 40px;
+}
+.tomcat li p{
+    text-align: right;
+    margin: 0;
+} 
+  
+.tomcat li p a:hover {
+    color: blue;
+}
+footer {
+    font-size: 16px;
+    text-align: left;
+    margin: 0;
+    border-bottom: 1px solid #808080;
+    position: relative;
 }
